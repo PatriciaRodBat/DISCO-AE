@@ -80,7 +80,7 @@ Unsupervised DISCO-AE for selected GALLOP and FAUST setups.
     year      = {2024},
 }
 
-### ORIGINAL IMPLEMENTATIONS
+## ORIGINAL IMPLEMENTATIONS
 Some files were modified three times in order to fulfill the three ideas to develop of the master thesis: PCA-based second reduction algorithm, Selection of a particular set of eigenvectors and MLP-based fusion for combination of shape and template features.
 
 **The naming pattern of these variations goes as follows: xxx_PCA.py, xxx_eigvct.py, xxx_TF.py**
@@ -93,7 +93,6 @@ Some files do not have one version per approach, but were still slightly modifie
 
 Some other files were directly added to the repository, instead of modified.
 -To plot and compare surface meshes and their errors regarding different approaches: **PLOTS3D_true.ipynb** and **PLOTS3D_compare.ipynb**, where the first one solely shows ground truth meshes.
--To develop illustrative plots for the master thesis .pdf in general: **PCA_example.py** and **EIG_example.py**.
 -To run experiments, **02_train_net_jobscript.sh**.
 -To faster run experiments with differences in seed, approach, etc, these *.yalm* files were added to the config folder, although their functioning changes nothing really, resulting in files of very low interest: **gallop_pca_seed1/2/3**, **gallop_mlp_seed1/2/3**, **gallop_model_seed1/2/3**.
 -Together with these files, **run_6.sh** was designed to be able to run them simultaneously.
